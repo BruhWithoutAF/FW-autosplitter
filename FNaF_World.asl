@@ -31,7 +31,7 @@ start {
 }
 
 split {
-  if(settings["Normal"] && old.dialog == 22 && current.dialog == 7 || settings["Hard"] && current.dialog == 7 && old.dialog == 30 || settings["4th"] && current.dialog4th == 511 && old.dialog4th == 2175 || settings["Clock"] && current.area == 29 && old.area != 29 || settings["Chip"] && current.dialog == 7 && old.dialog == 16 || settings["Universe"] && current.area == 30 && old.area != 30 || settings["Rainbow"] && current.area == 45 && old.area != 45 || settings["Mini"] && current.area == 43 ||
+  if(settings["Normal"] && old.dialog == 22 && current.dialog == 7 || settings["Hard"] && current.dialog == 7 && old.dialog == 30 || settings["4th"] && current.dialog4th == 511 && old.dialog4th == 2175 || settings["Clock"] && current.area == 29 && old.area != 29 || settings["Chip"] && current.dialog == 7 && old.dialog == 16 || settings["Universe"] && current.area == 30 && old.area != 30 || settings["Rainbow"] && current.area == 45 && old.area != 45 || settings["Mini"] && current.area == 43 && old.area != 43 ||
   settings["Normal0"] && old.dialog == 22 && current.dialog == 7 || settings["Hard0"] && current.dialog == 7 && old.dialog == 30 || settings["4th0"] && current.dialog4th == 511 && old.dialog4th == 2175 || settings["Clock0"] && current.area == 28 && old.area != 28 || settings["Chip0"] && current.dialog == 7 && old.dialog == 16 || settings["Universe0"] && current.area == 29 && old.area != 29) {
     return true;
   }
